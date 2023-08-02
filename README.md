@@ -7,13 +7,14 @@ I created this file on 02 Aug, 2023 and added all the changes
 Python Project on Bikeshare
 
 ### Description
-Performing Statistical function on bike ride across 3 different cities
+Performing Statistical function on bike ride between 3 different cities
 
 ### Files used
 chicago.csv
 new_york_city.csv
 washington.csv
+bikeshare.py contains whole code for the python work
 
 ### Credits
 The credits for the dataset, ideas and different approach goes to Udacity and it's remarkable 
-teachers/mentors
+teachers/mentors.
