@@ -175,7 +175,7 @@ def user_stats(df):
         gender = df['Gender'].value_counts()
         print(f'\nThe count of users by gender:\n\n{gender}')
     except:
-        print('\nThere is no Gender column in this file.')
+        print('\nThere is no Gender column in this file due to missing data.')
 
     # TO DO: Display earliest, most recent, and most common year of birth
     try:
@@ -184,7 +184,7 @@ def user_stats(df):
         common_year = int(df['Birth Year'].mode()[0])
         print(f'\nThe earliest year of birth: {earliest_year}\nThe most recent year of birth: {recent_year}\nThe most common year of birth: {common_year}')
     except:
-        print('No birth year details found in this file.')
+        print('No birth year details found in this file due to missing data.')
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
